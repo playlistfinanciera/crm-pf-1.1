@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "crm-pf-1-1": {
+      "development": {
+        "fallback": "www.playlistfinanciera.com"
+      }
+    },
+    "portfolio-dashboard": {
+      "routing": [
+        {
+          "paths": ["/dashboard", "/dashboard/:path*"]
+        }
+      ]
+    }
+  }
+}
